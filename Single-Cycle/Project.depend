@@ -1,0 +1,223 @@
+# depslib dependency file v1.0
+1739305615 source:c:\users\35799\desktop\ece314\project\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<algorithm>
+	<unordered_map>
+	"InstructionMemory.h"
+	"ALU.h"
+	"Registers.h"
+	"ControlUnit.h"
+	"Observer.h"
+	"Memory.h"
+
+1738603033 c:\users\35799\desktop\ece314\project\include\alu.h
+	<string>
+
+1738480048 c:\users\35799\desktop\ece314\project\include\registers.h
+	<string>
+	<vector>
+	<map>
+
+1739290031 source:c:\users\35799\desktop\ece314\project\src\registers.cpp
+	"Registers.h"
+	<iostream>
+
+1739304235 source:c:\users\35799\desktop\ece314\project\src\alu.cpp
+	"ALU.h"
+	<iostream>
+
+1739303828 source:c:\users\35799\desktop\ece314\project\src\controlunit.cpp
+	"ControlUnit.h"
+	<iostream>
+	<cstring>
+
+1738603601 c:\users\35799\desktop\ece314\project\include\controlunit.h
+	<string>
+
+1739350904 source:c:\users\35799\desktop\ece314\project\src\observer.cpp
+	"Observer.h"
+	<fstream>
+	<bitset>
+
+1739291084 c:\users\35799\desktop\ece314\project\include\observer.h
+	<iostream>
+	<string>
+	"Registers.h"
+	"Memory.h"
+	"ControlUnit.h"
+	"InstructionMemory.h"
+
+1739305215 source:c:\users\35799\desktop\ece314\project\src\instructionmemory.cpp
+	"InstructionMemory.h"
+	<sstream>
+	<algorithm>
+	<cctype>
+
+1739208258 c:\users\35799\desktop\ece314\project\include\instructionmemory.h
+	<iostream>
+	<fstream>
+	<vector>
+	<string>
+	<cstdint>
+	<unordered_map>
+
+1739206382 source:c:\users\35799\desktop\ece314\project\src\memory.cpp
+	"Memory.h"
+	<iostream>
+	<iomanip>
+
+1739206281 c:\users\35799\desktop\ece314\project\include\memory.h
+	<vector>
+	<cstdint>
+
+1739358972 source:c:\users\35799\desktop\lefkios_uc1064650\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<algorithm>
+	<unordered_map>
+	"InstructionMemory.h"
+	"ALU.h"
+	"Registers.h"
+	"ControlUnit.h"
+	"Observer.h"
+	"Memory.h"
+
+1739208258 c:\users\35799\desktop\lefkios_uc1064650\include\instructionmemory.h
+	<iostream>
+	<fstream>
+	<vector>
+	<string>
+	<cstdint>
+	<unordered_map>
+
+1738603033 c:\users\35799\desktop\lefkios_uc1064650\include\alu.h
+	<string>
+
+1738480048 c:\users\35799\desktop\lefkios_uc1064650\include\registers.h
+	<string>
+	<vector>
+	<map>
+
+1738603601 c:\users\35799\desktop\lefkios_uc1064650\include\controlunit.h
+	<string>
+
+1739291084 c:\users\35799\desktop\lefkios_uc1064650\include\observer.h
+	<iostream>
+	<string>
+	"Registers.h"
+	"Memory.h"
+	"ControlUnit.h"
+	"InstructionMemory.h"
+
+1739206281 c:\users\35799\desktop\lefkios_uc1064650\include\memory.h
+	<vector>
+	<cstdint>
+
+1739304235 source:c:\users\35799\desktop\lefkios_uc1064650\src\alu.cpp
+	"ALU.h"
+	<iostream>
+
+1739303828 source:c:\users\35799\desktop\lefkios_uc1064650\src\controlunit.cpp
+	"ControlUnit.h"
+	<iostream>
+	<cstring>
+
+1739305215 source:c:\users\35799\desktop\lefkios_uc1064650\src\instructionmemory.cpp
+	"InstructionMemory.h"
+	<sstream>
+	<algorithm>
+	<cctype>
+
+1739206382 source:c:\users\35799\desktop\lefkios_uc1064650\src\memory.cpp
+	"Memory.h"
+	<iostream>
+	<iomanip>
+
+1739359024 source:c:\users\35799\desktop\lefkios_uc1064650\src\observer.cpp
+	"Observer.h"
+	<fstream>
+	<bitset>
+
+1739290031 source:c:\users\35799\desktop\lefkios_uc1064650\src\registers.cpp
+	"Registers.h"
+	<iostream>
+
+1746872477 source:c:\users\35799\desktop\ece314_exams\lefkios_uc1064650_lab1\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<algorithm>
+	<unordered_map>
+	"InstructionMemory.h"
+	"ALU.h"
+	"Registers.h"
+	"ControlUnit.h"
+	"Observer.h"
+	"Memory.h"
+
+1739211858 c:\users\35799\desktop\ece314_exams\lefkios_uc1064650_lab1\include\instructionmemory.h
+	<iostream>
+	<fstream>
+	<vector>
+	<string>
+	<cstdint>
+	<unordered_map>
+
+1738606633 c:\users\35799\desktop\ece314_exams\lefkios_uc1064650_lab1\include\alu.h
+	<string>
+
+1738483648 c:\users\35799\desktop\ece314_exams\lefkios_uc1064650_lab1\include\registers.h
+	<string>
+	<vector>
+	<map>
+
+1738607201 c:\users\35799\desktop\ece314_exams\lefkios_uc1064650_lab1\include\controlunit.h
+	<string>
+
+1739294684 c:\users\35799\desktop\ece314_exams\lefkios_uc1064650_lab1\include\observer.h
+	<iostream>
+	<string>
+	"Registers.h"
+	"Memory.h"
+	"ControlUnit.h"
+	"InstructionMemory.h"
+
+1739209881 c:\users\35799\desktop\ece314_exams\lefkios_uc1064650_lab1\include\memory.h
+	<vector>
+	<cstdint>
+
+1739307835 source:c:\users\35799\desktop\ece314_exams\lefkios_uc1064650_lab1\src\alu.cpp
+	"ALU.h"
+	<iostream>
+
+1739307428 source:c:\users\35799\desktop\ece314_exams\lefkios_uc1064650_lab1\src\controlunit.cpp
+	"ControlUnit.h"
+	<iostream>
+	<cstring>
+
+1739308815 source:c:\users\35799\desktop\ece314_exams\lefkios_uc1064650_lab1\src\instructionmemory.cpp
+	"InstructionMemory.h"
+	<sstream>
+	<algorithm>
+	<cctype>
+
+1739209982 source:c:\users\35799\desktop\ece314_exams\lefkios_uc1064650_lab1\src\memory.cpp
+	"Memory.h"
+	<iostream>
+	<iomanip>
+
+1746770137 source:c:\users\35799\desktop\ece314_exams\lefkios_uc1064650_lab1\src\observer.cpp
+	"Observer.h"
+	<fstream>
+	<bitset>
+
+1746079884 source:c:\users\35799\desktop\ece314_exams\lefkios_uc1064650_lab1\src\registers.cpp
+	"Registers.h"
+	<iostream>
+

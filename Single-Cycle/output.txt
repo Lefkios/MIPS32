@@ -1,0 +1,1471 @@
+MIPS32 Single-Cycle
+
+-----Cycle 1-----
+Registers:
+4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+0	and $v0, $zero, $zero	$zero	$zero	$v0	0	0	0	0	-	-	-	-	0	0	0	0	0	10	0	0	1
+
+Memory State:
+
+
+-----Cycle 2-----
+Registers:
+8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+4	and $v1, $zero, $zero	$zero	$zero	$v1	0	0	0	0	-	-	-	-	0	0	0	0	0	10	0	0	1
+
+Memory State:
+
+
+-----Cycle 3-----
+Registers:
+c	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+8	and $a0, $zero, $zero	$zero	$zero	$a0	0	0	0	0	-	-	-	-	0	0	0	0	0	10	0	0	1
+
+Memory State:
+
+
+-----Cycle 4-----
+Registers:
+10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+c	and $a1, $zero, $zero	$zero	$zero	$a1	0	0	0	0	-	-	-	-	0	0	0	0	0	10	0	0	1
+
+Memory State:
+
+
+-----Cycle 5-----
+Registers:
+14	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+10	and $a2, $zero, $zero	$zero	$zero	$a2	0	0	0	0	-	-	-	-	0	0	0	0	0	10	0	0	1
+
+Memory State:
+
+
+-----Cycle 6-----
+Registers:
+18	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+14	and $a3, $zero, $zero	$zero	$zero	$a3	0	0	0	0	-	-	-	-	0	0	0	0	0	10	0	0	1
+
+Memory State:
+
+
+-----Cycle 7-----
+Registers:
+1c	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+18	and $t0, $zero, $zero	$zero	$zero	$t0	0	0	0	0	-	-	-	-	0	0	0	0	0	10	0	0	1
+
+Memory State:
+
+
+-----Cycle 8-----
+Registers:
+20	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+1c	and $t1, $zero, $zero	$zero	$zero	$t1	0	0	0	0	-	-	-	-	0	0	0	0	0	10	0	0	1
+
+Memory State:
+
+
+-----Cycle 9-----
+Registers:
+24	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+20	ori $t1, $zero, 0x1	$zero	-	$t1	1	0	-	1	-	-	-	-	0	0	0	0	0	01	0	1	1
+
+Memory State:
+
+
+-----Cycle 10-----
+Registers:
+28	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+24	and $t2, $zero, $zero	$zero	$zero	$t2	0	0	0	0	-	-	-	-	0	0	0	0	0	10	0	0	1
+
+Memory State:
+
+
+-----Cycle 11-----
+Registers:
+2c	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+28	and $t3, $zero, $zero	$zero	$zero	$t3	0	0	0	0	-	-	-	-	0	0	0	0	0	10	0	0	1
+
+Memory State:
+
+
+-----Cycle 12-----
+Registers:
+30	0	0	0	0	0	0	0	0	0	1	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+2c	ori $t3, $zero, 0x2	$zero	-	$t3	2	0	-	2	-	-	-	-	0	0	0	0	0	01	0	1	1
+
+Memory State:
+
+
+-----Cycle 13-----
+Registers:
+34	0	0	0	0	0	0	0	0	0	1	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+30	and $t4, $zero, $zero	$zero	$zero	$t4	0	0	0	0	-	-	-	-	0	0	0	0	0	10	0	0	1
+
+Memory State:
+
+
+-----Cycle 14-----
+Registers:
+38	0	0	0	0	0	0	0	0	0	1	0	2	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+34	ori $t4, $zero, 0x3	$zero	-	$t4	3	0	-	3	-	-	-	-	0	0	0	0	0	01	0	1	1
+
+Memory State:
+
+
+-----Cycle 15-----
+Registers:
+3c	0	0	0	0	0	0	0	0	0	1	0	2	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+38	and $t5, $zero, $zero	$zero	$zero	$t5	0	0	0	0	-	-	-	-	0	0	0	0	0	10	0	0	1
+
+Memory State:
+
+
+-----Cycle 16-----
+Registers:
+40	0	0	0	0	0	0	0	0	0	1	0	2	3	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+3c	ori $t5, $zero, 0x5	$zero	-	$t5	5	0	-	5	-	-	-	-	0	0	0	0	0	01	0	1	1
+
+Memory State:
+
+
+-----Cycle 17-----
+Registers:
+44	0	0	0	0	0	0	0	0	0	1	0	2	3	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+40	and $t6, $zero, $zero	$zero	$zero	$t6	0	0	0	0	-	-	-	-	0	0	0	0	0	10	0	0	1
+
+Memory State:
+
+
+-----Cycle 18-----
+Registers:
+48	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	0	0	0	0	0	0	0	0	0	0	0	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+44	ori $t6, $zero, 0x6	$zero	-	$t6	6	0	-	6	-	-	-	-	0	0	0	0	0	01	0	1	1
+
+Memory State:
+
+
+-----Cycle 19-----
+Registers:
+4c	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	0	0	0	0	0	0	0	0	0	0	0	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+48	and $t7, $zero, $zero	$zero	$zero	$t7	0	0	0	0	-	-	-	-	0	0	0	0	0	10	0	0	1
+
+Memory State:
+
+
+-----Cycle 20-----
+Registers:
+50	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	0	0	0	0	0	0	0	0	0	0	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+4c	ori $t7, $zero, 0x19	$zero	-	$t7	19	0	-	19	-	-	-	-	0	0	0	0	0	01	0	1	1
+
+Memory State:
+
+
+-----Cycle 21-----
+Registers:
+54	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	0	0	0	0	0	0	0	0	0	0	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+50	and $s0, $zero, $zero	$zero	$zero	$s0	0	0	0	0	-	-	-	-	0	0	0	0	0	10	0	0	1
+
+Memory State:
+
+
+-----Cycle 22-----
+Registers:
+58	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	0	0	0	0	0	0	0	0	0	0	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+54	and $s1, $zero, $zero	$zero	$zero	$s1	0	0	0	0	-	-	-	-	0	0	0	0	0	10	0	0	1
+
+Memory State:
+
+
+-----Cycle 23-----
+Registers:
+5c	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	0	0	0	0	0	0	0	0	0	0	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+58	and $s2, $zero, $zero	$zero	$zero	$s2	0	0	0	0	-	-	-	-	0	0	0	0	0	10	0	0	1
+
+Memory State:
+
+
+-----Cycle 24-----
+Registers:
+60	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	0	0	0	20	0	0	0	0	0	0	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+5c	ori $s3, $zero, 0x20	$zero	-	$s3	20	0	-	20	-	-	-	-	0	0	0	0	0	01	0	1	1
+
+Memory State:
+
+
+-----Cycle 25-----
+Registers:
+64	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	0	0	0	20	0	0	0	0	0	0	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+60	and $s4, $zero, $zero	$zero	$zero	$s4	0	0	0	0	-	-	-	-	0	0	0	0	0	10	0	0	1
+
+Memory State:
+
+
+-----Cycle 26-----
+Registers:
+68	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	0	0	0	20	25	0	0	0	0	0	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+64	ori $s4, $zero, 0x25	$zero	-	$s4	25	0	-	25	-	-	-	-	0	0	0	0	0	01	0	1	1
+
+Memory State:
+
+
+-----Cycle 27-----
+Registers:
+6c	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	0	0	0	20	25	0	0	0	0	0	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+68	and $s5, $zero, $zero	$zero	$zero	$s5	0	0	0	0	-	-	-	-	0	0	0	0	0	10	0	0	1
+
+Memory State:
+
+
+-----Cycle 28-----
+Registers:
+70	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	0	0	0	20	25	21	0	0	0	0	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+6c	ori $s5, $zero, 0x21	$zero	-	$s5	21	0	-	21	-	-	-	-	0	0	0	0	0	01	0	1	1
+
+Memory State:
+
+
+-----Cycle 29-----
+Registers:
+74	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	0	0	0	20	25	21	0	0	0	0	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+70	and $s6, $zero, $zero	$zero	$zero	$s6	0	0	0	0	-	-	-	-	0	0	0	0	0	10	0	0	1
+
+Memory State:
+
+
+-----Cycle 30-----
+Registers:
+78	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	0	0	0	20	25	21	16	0	0	0	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+74	ori $s6, $zero, 0x16	$zero	-	$s6	16	0	-	16	-	-	-	-	0	0	0	0	0	01	0	1	1
+
+Memory State:
+
+
+-----Cycle 31-----
+Registers:
+7c	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	0	0	0	20	25	21	16	0	0	0	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+78	and $s7, $zero, $zero	$zero	$zero	$s7	0	0	0	0	-	-	-	-	0	0	0	0	0	10	0	0	1
+
+Memory State:
+
+
+-----Cycle 32-----
+Registers:
+80	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	0	0	0	20	25	21	16	12	0	0	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+7c	ori $s7, $zero, 0x12	$zero	-	$s7	12	0	-	12	-	-	-	-	0	0	0	0	0	01	0	1	1
+
+Memory State:
+
+
+-----Cycle 33-----
+Registers:
+84	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	0	0	0	20	25	21	16	12	0	0	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+80	and $t8, $zero, $zero	$zero	$zero	$t8	0	0	0	0	-	-	-	-	0	0	0	0	0	10	0	0	1
+
+Memory State:
+
+
+-----Cycle 34-----
+Registers:
+88	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	0	0	0	20	25	21	16	12	c	0	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+84	ori $t8, $zero, 0xC	$zero	-	$t8	c	0	-	c	-	-	-	-	0	0	0	0	0	01	0	1	1
+
+Memory State:
+
+
+-----Cycle 35-----
+Registers:
+8c	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	0	0	0	20	25	21	16	12	c	0	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+88	and $t9, $zero, $zero	$zero	$zero	$t9	0	0	0	0	-	-	-	-	0	0	0	0	0	10	0	0	1
+
+Memory State:
+
+
+-----Cycle 36-----
+Registers:
+90	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	0	0	0	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+8c	ori $t9, $zero, 0xA	$zero	-	$t9	a	0	-	a	-	-	-	-	0	0	0	0	0	01	0	1	1
+
+Memory State:
+
+
+-----Cycle 37-----
+Registers:
+94	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	0	0	0	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+90	and $k0, $zero, $zero	$zero	$zero	$k0	0	0	0	0	-	-	-	-	0	0	0	0	0	10	0	0	1
+
+Memory State:
+
+
+-----Cycle 38-----
+Registers:
+98	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	0	0	0	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+94	and $k1, $zero, $zero	$zero	$zero	$k1	0	0	0	0	-	-	-	-	0	0	0	0	0	10	0	0	1
+
+Memory State:
+
+
+-----Cycle 39-----
+Registers:
+9c	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	0	0	0	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+98	and $ra, $zero, $zero	$zero	$zero	$ra	0	0	0	0	-	-	-	-	0	0	0	0	0	10	0	0	1
+
+Memory State:
+
+
+-----Cycle 40-----
+Registers:
+a0	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	100	0	0	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+9c	ori $s0, $zero , 0x100	$zero	-	$s0	100	0	-	100	-	-	-	-	0	0	0	0	0	01	0	1	1
+
+Memory State:
+
+
+-----Cycle 41-----
+Registers:
+a4	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	100	0	0	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+a0	sw $s0, 0($gp)	$gp	$s0	-	-	-	10008000	100	10008000	-	10008000	100	-	-	0	0	0	-	00	1	1	0
+
+Memory State:
+100	
+
+-----Cycle 42-----
+Registers:
+a8	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	9	0	0	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+a4	ori $s0, $zero , 0x9	$zero	-	$s0	9	0	-	9	-	-	-	-	0	0	0	0	0	01	0	1	1
+
+Memory State:
+100	
+
+-----Cycle 43-----
+Registers:
+ac	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	9	0	0	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+a8	sw $s0, 4($gp)	$gp	$s0	-	-	-	10008000	9	10008004	-	10008004	9	-	-	0	0	0	-	00	1	1	0
+
+Memory State:
+100	9	
+
+-----Cycle 44-----
+Registers:
+b0	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	10	0	0	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+ac	ori $s0, $zero , 0x10	$zero	-	$s0	10	0	-	10	-	-	-	-	0	0	0	0	0	01	0	1	1
+
+Memory State:
+100	9	
+
+-----Cycle 45-----
+Registers:
+b4	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	10	0	0	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+b0	sw $s0, 8($gp)	$gp	$s0	-	-	-	10008000	10	10008008	-	10008008	10	-	-	0	0	0	-	00	1	1	0
+
+Memory State:
+100	9	10	
+
+-----Cycle 46-----
+Registers:
+b8	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	1000	0	0	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+b4	ori $s0, $zero , 0x1000	$zero	-	$s0	1000	0	-	1000	-	-	-	-	0	0	0	0	0	01	0	1	1
+
+Memory State:
+100	9	10	
+
+-----Cycle 47-----
+Registers:
+bc	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	1000	0	0	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+b8	sw $s0, 12($gp)	$gp	$s0	-	-	-	10008000	1000	1000800c	-	1000800c	1000	-	-	0	0	0	-	00	1	1	0
+
+Memory State:
+100	9	10	1000	
+
+-----Cycle 48-----
+Registers:
+c0	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	200	0	0	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+bc	ori $s0, $zero , 0x200	$zero	-	$s0	200	0	-	200	-	-	-	-	0	0	0	0	0	01	0	1	1
+
+Memory State:
+100	9	10	1000	
+
+-----Cycle 49-----
+Registers:
+c4	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	200	0	0	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+c0	sw $s0, 16($gp)	$gp	$s0	-	-	-	10008000	200	10008010	-	10008010	200	-	-	0	0	0	-	00	1	1	0
+
+Memory State:
+100	9	10	1000	200	
+
+-----Cycle 50-----
+Registers:
+c8	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	3	0	0	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+c4	ori $s0, $zero , 0x3	$zero	-	$s0	3	0	-	3	-	-	-	-	0	0	0	0	0	01	0	1	1
+
+Memory State:
+100	9	10	1000	200	
+
+-----Cycle 51-----
+Registers:
+cc	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	3	0	0	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+c8	sw $s0, 20($gp)	$gp	$s0	-	-	-	10008000	3	10008014	-	10008014	3	-	-	0	0	0	-	00	1	1	0
+
+Memory State:
+100	9	10	1000	200	3	
+
+-----Cycle 52-----
+Registers:
+d0	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	8	0	0	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+cc	ori $s0, $zero , 0x8	$zero	-	$s0	8	0	-	8	-	-	-	-	0	0	0	0	0	01	0	1	1
+
+Memory State:
+100	9	10	1000	200	3	
+
+-----Cycle 53-----
+Registers:
+d4	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	8	0	0	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+d0	sw $s0, 24($gp)	$gp	$s0	-	-	-	10008000	8	10008018	-	10008018	8	-	-	0	0	0	-	00	1	1	0
+
+Memory State:
+100	9	10	1000	200	3	8	
+
+-----Cycle 54-----
+Registers:
+d8	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	2000	0	0	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+d4	ori $s0, $zero , 0x2000	$zero	-	$s0	2000	0	-	2000	-	-	-	-	0	0	0	0	0	01	0	1	1
+
+Memory State:
+100	9	10	1000	200	3	8	
+
+-----Cycle 55-----
+Registers:
+dc	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	2000	0	0	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+d8	sw $s0, 28($gp)	$gp	$s0	-	-	-	10008000	2000	1000801c	-	1000801c	2000	-	-	0	0	0	-	00	1	1	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	
+
+-----Cycle 56-----
+Registers:
+e0	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	600	0	0	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+dc	ori $s0, $zero , 0x600	$zero	-	$s0	600	0	-	600	-	-	-	-	0	0	0	0	0	01	0	1	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	
+
+-----Cycle 57-----
+Registers:
+e4	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	600	0	0	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+e0	sw $s0, 32($gp)	$gp	$s0	-	-	-	10008000	600	10008020	-	10008020	600	-	-	0	0	0	-	00	1	1	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	
+
+-----Cycle 58-----
+Registers:
+e8	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	8	0	0	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+e4	ori $s0, $zero , 0x8	$zero	-	$s0	8	0	-	8	-	-	-	-	0	0	0	0	0	01	0	1	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	
+
+-----Cycle 59-----
+Registers:
+ec	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	8	0	0	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+e8	sw $s0, 36($gp)	$gp	$s0	-	-	-	10008000	8	10008024	-	10008024	8	-	-	0	0	0	-	00	1	1	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	
+
+-----Cycle 60-----
+Registers:
+f0	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	13	0	0	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+ec	ori $s0, $zero , 0x13	$zero	-	$s0	13	0	-	13	-	-	-	-	0	0	0	0	0	01	0	1	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	
+
+-----Cycle 61-----
+Registers:
+f4	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	13	0	0	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+f0	sw $s0, 40($gp)	$gp	$s0	-	-	-	10008000	13	10008028	-	10008028	13	-	-	0	0	0	-	00	1	1	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	
+
+-----Cycle 62-----
+Registers:
+f8	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	27	0	0	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+f4	ori $s0, $zero , 0x27	$zero	-	$s0	27	0	-	27	-	-	-	-	0	0	0	0	0	01	0	1	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	
+
+-----Cycle 63-----
+Registers:
+fc	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	27	0	0	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+f8	sw $s0, 44($gp)	$gp	$s0	-	-	-	10008000	27	1000802c	-	1000802c	27	-	-	0	0	0	-	00	1	1	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 64-----
+Registers:
+100	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	10008000	0	0	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+fc	or $s0, $zero , $gp	$zero	$gp	$s0	10008000	0	10008000	10008000	-	-	-	-	0	0	0	0	0	10	0	0	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 65-----
+Registers:
+104	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	10008000	0	c	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+100	ori $s2, $zero, 0xC	$zero	-	$s2	c	0	-	c	-	-	-	-	0	0	0	0	0	01	0	1	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 66-----
+Registers:
+108	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	10008000	0	c	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+104	and $s1, $zero, $zero	$zero	$zero	$s1	0	0	0	0	-	-	-	-	0	0	0	0	0	10	0	0	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 67-----
+Registers:
+10c	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	10008000	1111	c	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+108	ori $s1, $s1, 0x1111	$s1	-	$s1	1111	0	-	1111	-	-	-	-	0	0	0	0	0	01	0	1	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 68-----
+Registers:
+110	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	10008000	11110000	c	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+10c	sll $s1, $s1, 16	$s1	-	$s1	11110000	1111	10	11110000	-	-	-	-	1	0	0	0	0	11	0	0	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 69-----
+Registers:
+114	0	0	0	0	0	0	0	0	0	1	0	2	3	5	6	19	10008000	11111111	c	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+110	ori $s1, $s1, 0x1111	$s1	-	$s1	11111111	11110000	-	11111111	-	-	-	-	0	0	0	0	0	01	0	1	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 70-----
+Registers:
+118	0	0	0	0	0	0	0	0	100	1	0	2	3	5	6	19	10008000	11111111	c	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+114	lw $t0, 0($s0)	$s0	$t0	-	-	100	10008000	1111	10008000	-	10008000	-	286331153	0	0	0	1	1	00	0	1	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 71-----
+Registers:
+11c	0	0	0	0	0	0	0	0	100	1	1	2	3	5	6	19	10008000	11111111	c	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+118	slt $t2, $t0, $s1	$t0	$s1	$t2	1	100	11111111	1	-	-	-	-	1	0	0	0	0	10	0	0	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 72-----
+Registers:
+130	0	0	0	0	0	0	0	0	100	1	1	2	3	5	6	19	10008000	11111111	c	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+11c	bne $t2, $zero , less	$t2	$zero	-	-	1	0	1	less	-	-	-	-	0	1	0	-	10	0	0	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 73-----
+Registers:
+134	0	0	0	0	0	0	0	0	100	1	1	2	3	5	6	19	10008000	0	c	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+130	and $s1, $zero, $zero	$zero	$zero	$s1	0	0	0	0	-	-	-	-	0	0	0	0	0	10	0	0	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 74-----
+Registers:
+138	0	0	0	0	0	0	0	0	100	1	1	2	3	5	6	19	10008000	100	c	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+134	or $s1, $t0, $zero	$t0	$zero	$s1	100	100	0	100	-	-	-	-	0	0	0	0	0	10	0	0	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 75-----
+Registers:
+114	0	0	0	0	0	0	0	0	100	1	1	2	3	5	6	19	10008000	100	c	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+138	j next	-	-	-	100	100	0	100	-	-	-	-	0	1	0	0	0	--	0	-	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 76-----
+Registers:
+118	0	0	0	0	0	0	0	0	100	1	1	2	3	5	6	19	10008000	100	c	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+114	lw $t0, 0($s0)	$s0	$t0	-	-	100	10008000	0	10008000	-	10008000	-	256	0	0	0	1	1	00	0	1	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 77-----
+Registers:
+11c	0	0	0	0	0	0	0	0	100	1	0	2	3	5	6	19	10008000	100	c	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+118	slt $t2, $t0, $s1	$t0	$s1	$t2	0	100	100	0	-	-	-	-	1	0	0	0	0	10	0	0	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 78-----
+Registers:
+120	0	0	0	0	0	0	0	0	100	1	0	2	3	5	6	19	10008000	100	c	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+138	bne $t2, $zero , less	$t2	$zero	-	-	0	0	0	less	-	-	-	-	0	1	0	-	10	0	0	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 80-----
+Registers:
+128	0	0	0	0	0	0	0	0	100	1	0	2	3	5	6	19	10008000	100	b	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+138	beq $s2, $zero, exit	$s2	$zero	-	-	b	0	b	exit	-	-	-	-	0	1	0	-	01	0	0	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 82-----
+Registers:
+114	0	0	0	0	0	0	0	0	100	1	0	2	3	5	6	19	10008004	100	b	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+12c	j next	-	-	-	10008004	10008000	4	10008004	-	-	-	-	0	1	0	0	0	--	0	-	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 83-----
+Registers:
+118	0	0	0	0	0	0	0	0	9	1	0	2	3	5	6	19	10008004	100	b	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+114	lw $t0, 0($s0)	$s0	$t0	-	-	9	10008004	4	10008004	-	10008004	-	268468228	0	0	0	1	1	00	0	1	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 84-----
+Registers:
+11c	0	0	0	0	0	0	0	0	9	1	1	2	3	5	6	19	10008004	100	b	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+118	slt $t2, $t0, $s1	$t0	$s1	$t2	1	9	100	1	-	-	-	-	1	0	0	0	0	10	0	0	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 85-----
+Registers:
+130	0	0	0	0	0	0	0	0	9	1	1	2	3	5	6	19	10008004	100	b	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+11c	bne $t2, $zero , less	$t2	$zero	-	-	1	0	1	less	-	-	-	-	0	1	0	-	10	0	0	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 86-----
+Registers:
+134	0	0	0	0	0	0	0	0	9	1	1	2	3	5	6	19	10008004	0	b	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+130	and $s1, $zero, $zero	$zero	$zero	$s1	0	0	0	0	-	-	-	-	0	0	0	0	0	10	0	0	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 87-----
+Registers:
+138	0	0	0	0	0	0	0	0	9	1	1	2	3	5	6	19	10008004	9	b	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+134	or $s1, $t0, $zero	$t0	$zero	$s1	9	9	0	9	-	-	-	-	0	0	0	0	0	10	0	0	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 88-----
+Registers:
+114	0	0	0	0	0	0	0	0	9	1	1	2	3	5	6	19	10008004	9	b	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+138	j next	-	-	-	9	9	0	9	-	-	-	-	0	1	0	0	0	--	0	-	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 89-----
+Registers:
+118	0	0	0	0	0	0	0	0	9	1	1	2	3	5	6	19	10008004	9	b	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+114	lw $t0, 0($s0)	$s0	$t0	-	-	9	10008004	0	10008004	-	10008004	-	9	0	0	0	1	1	00	0	1	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 90-----
+Registers:
+11c	0	0	0	0	0	0	0	0	9	1	0	2	3	5	6	19	10008004	9	b	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+118	slt $t2, $t0, $s1	$t0	$s1	$t2	0	9	9	0	-	-	-	-	1	0	0	0	0	10	0	0	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 91-----
+Registers:
+120	0	0	0	0	0	0	0	0	9	1	0	2	3	5	6	19	10008004	9	b	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+138	bne $t2, $zero , less	$t2	$zero	-	-	0	0	0	less	-	-	-	-	0	1	0	-	10	0	0	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 93-----
+Registers:
+128	0	0	0	0	0	0	0	0	9	1	0	2	3	5	6	19	10008004	9	a	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+138	beq $s2, $zero, exit	$s2	$zero	-	-	a	0	a	exit	-	-	-	-	0	1	0	-	01	0	0	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 95-----
+Registers:
+114	0	0	0	0	0	0	0	0	9	1	0	2	3	5	6	19	10008008	9	a	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+12c	j next	-	-	-	10008008	10008004	4	10008008	-	-	-	-	0	1	0	0	0	--	0	-	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 96-----
+Registers:
+118	0	0	0	0	0	0	0	0	10	1	0	2	3	5	6	19	10008008	9	a	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+114	lw $t0, 0($s0)	$s0	$t0	-	-	10	10008008	4	10008008	-	10008008	-	268468232	0	0	0	1	1	00	0	1	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 97-----
+Registers:
+11c	0	0	0	0	0	0	0	0	10	1	0	2	3	5	6	19	10008008	9	a	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+118	slt $t2, $t0, $s1	$t0	$s1	$t2	0	10	9	0	-	-	-	-	1	0	0	0	0	10	0	0	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 98-----
+Registers:
+120	0	0	0	0	0	0	0	0	10	1	0	2	3	5	6	19	10008008	9	a	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+12c	bne $t2, $zero , less	$t2	$zero	-	-	0	0	0	less	-	-	-	-	0	1	0	-	10	0	0	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 100-----
+Registers:
+128	0	0	0	0	0	0	0	0	10	1	0	2	3	5	6	19	10008008	9	9	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+12c	beq $s2, $zero, exit	$s2	$zero	-	-	9	0	9	exit	-	-	-	-	0	1	0	-	01	0	0	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 102-----
+Registers:
+114	0	0	0	0	0	0	0	0	10	1	0	2	3	5	6	19	1000800c	9	9	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+12c	j next	-	-	-	1000800c	10008008	4	1000800c	-	-	-	-	0	1	0	0	0	--	0	-	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 103-----
+Registers:
+118	0	0	0	0	0	0	0	0	1000	1	0	2	3	5	6	19	1000800c	9	9	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+114	lw $t0, 0($s0)	$s0	$t0	-	-	1000	1000800c	4	1000800c	-	1000800c	-	268468236	0	0	0	1	1	00	0	1	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 104-----
+Registers:
+11c	0	0	0	0	0	0	0	0	1000	1	0	2	3	5	6	19	1000800c	9	9	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+118	slt $t2, $t0, $s1	$t0	$s1	$t2	0	1000	9	0	-	-	-	-	1	0	0	0	0	10	0	0	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 105-----
+Registers:
+120	0	0	0	0	0	0	0	0	1000	1	0	2	3	5	6	19	1000800c	9	9	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+12c	bne $t2, $zero , less	$t2	$zero	-	-	0	0	0	less	-	-	-	-	0	1	0	-	10	0	0	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 107-----
+Registers:
+128	0	0	0	0	0	0	0	0	1000	1	0	2	3	5	6	19	1000800c	9	8	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+12c	beq $s2, $zero, exit	$s2	$zero	-	-	8	0	8	exit	-	-	-	-	0	1	0	-	01	0	0	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 109-----
+Registers:
+114	0	0	0	0	0	0	0	0	1000	1	0	2	3	5	6	19	10008010	9	8	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+12c	j next	-	-	-	10008010	1000800c	4	10008010	-	-	-	-	0	1	0	0	0	--	0	-	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 110-----
+Registers:
+118	0	0	0	0	0	0	0	0	200	1	0	2	3	5	6	19	10008010	9	8	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+114	lw $t0, 0($s0)	$s0	$t0	-	-	200	10008010	4	10008010	-	10008010	-	268468240	0	0	0	1	1	00	0	1	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 111-----
+Registers:
+11c	0	0	0	0	0	0	0	0	200	1	0	2	3	5	6	19	10008010	9	8	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+118	slt $t2, $t0, $s1	$t0	$s1	$t2	0	200	9	0	-	-	-	-	1	0	0	0	0	10	0	0	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 112-----
+Registers:
+120	0	0	0	0	0	0	0	0	200	1	0	2	3	5	6	19	10008010	9	8	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+12c	bne $t2, $zero , less	$t2	$zero	-	-	0	0	0	less	-	-	-	-	0	1	0	-	10	0	0	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 114-----
+Registers:
+128	0	0	0	0	0	0	0	0	200	1	0	2	3	5	6	19	10008010	9	7	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+12c	beq $s2, $zero, exit	$s2	$zero	-	-	7	0	7	exit	-	-	-	-	0	1	0	-	01	0	0	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 116-----
+Registers:
+114	0	0	0	0	0	0	0	0	200	1	0	2	3	5	6	19	10008014	9	7	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+12c	j next	-	-	-	10008014	10008010	4	10008014	-	-	-	-	0	1	0	0	0	--	0	-	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 117-----
+Registers:
+118	0	0	0	0	0	0	0	0	3	1	0	2	3	5	6	19	10008014	9	7	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+114	lw $t0, 0($s0)	$s0	$t0	-	-	3	10008014	4	10008014	-	10008014	-	268468244	0	0	0	1	1	00	0	1	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 118-----
+Registers:
+11c	0	0	0	0	0	0	0	0	3	1	1	2	3	5	6	19	10008014	9	7	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+118	slt $t2, $t0, $s1	$t0	$s1	$t2	1	3	9	1	-	-	-	-	1	0	0	0	0	10	0	0	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 119-----
+Registers:
+130	0	0	0	0	0	0	0	0	3	1	1	2	3	5	6	19	10008014	9	7	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+11c	bne $t2, $zero , less	$t2	$zero	-	-	1	0	1	less	-	-	-	-	0	1	0	-	10	0	0	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 120-----
+Registers:
+134	0	0	0	0	0	0	0	0	3	1	1	2	3	5	6	19	10008014	0	7	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+130	and $s1, $zero, $zero	$zero	$zero	$s1	0	0	0	0	-	-	-	-	0	0	0	0	0	10	0	0	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 121-----
+Registers:
+138	0	0	0	0	0	0	0	0	3	1	1	2	3	5	6	19	10008014	3	7	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+134	or $s1, $t0, $zero	$t0	$zero	$s1	3	3	0	3	-	-	-	-	0	0	0	0	0	10	0	0	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 122-----
+Registers:
+114	0	0	0	0	0	0	0	0	3	1	1	2	3	5	6	19	10008014	3	7	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+138	j next	-	-	-	3	3	0	3	-	-	-	-	0	1	0	0	0	--	0	-	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 123-----
+Registers:
+118	0	0	0	0	0	0	0	0	3	1	1	2	3	5	6	19	10008014	3	7	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+114	lw $t0, 0($s0)	$s0	$t0	-	-	3	10008014	0	10008014	-	10008014	-	3	0	0	0	1	1	00	0	1	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 124-----
+Registers:
+11c	0	0	0	0	0	0	0	0	3	1	0	2	3	5	6	19	10008014	3	7	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+118	slt $t2, $t0, $s1	$t0	$s1	$t2	0	3	3	0	-	-	-	-	1	0	0	0	0	10	0	0	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 125-----
+Registers:
+120	0	0	0	0	0	0	0	0	3	1	0	2	3	5	6	19	10008014	3	7	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+138	bne $t2, $zero , less	$t2	$zero	-	-	0	0	0	less	-	-	-	-	0	1	0	-	10	0	0	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 127-----
+Registers:
+128	0	0	0	0	0	0	0	0	3	1	0	2	3	5	6	19	10008014	3	6	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+138	beq $s2, $zero, exit	$s2	$zero	-	-	6	0	6	exit	-	-	-	-	0	1	0	-	01	0	0	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 129-----
+Registers:
+114	0	0	0	0	0	0	0	0	3	1	0	2	3	5	6	19	10008018	3	6	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+12c	j next	-	-	-	10008018	10008014	4	10008018	-	-	-	-	0	1	0	0	0	--	0	-	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 130-----
+Registers:
+118	0	0	0	0	0	0	0	0	8	1	0	2	3	5	6	19	10008018	3	6	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+114	lw $t0, 0($s0)	$s0	$t0	-	-	8	10008018	4	10008018	-	10008018	-	268468248	0	0	0	1	1	00	0	1	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 131-----
+Registers:
+11c	0	0	0	0	0	0	0	0	8	1	0	2	3	5	6	19	10008018	3	6	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+118	slt $t2, $t0, $s1	$t0	$s1	$t2	0	8	3	0	-	-	-	-	1	0	0	0	0	10	0	0	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 132-----
+Registers:
+120	0	0	0	0	0	0	0	0	8	1	0	2	3	5	6	19	10008018	3	6	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+12c	bne $t2, $zero , less	$t2	$zero	-	-	0	0	0	less	-	-	-	-	0	1	0	-	10	0	0	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 134-----
+Registers:
+128	0	0	0	0	0	0	0	0	8	1	0	2	3	5	6	19	10008018	3	5	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+12c	beq $s2, $zero, exit	$s2	$zero	-	-	5	0	5	exit	-	-	-	-	0	1	0	-	01	0	0	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 136-----
+Registers:
+114	0	0	0	0	0	0	0	0	8	1	0	2	3	5	6	19	1000801c	3	5	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+12c	j next	-	-	-	1000801c	10008018	4	1000801c	-	-	-	-	0	1	0	0	0	--	0	-	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 137-----
+Registers:
+118	0	0	0	0	0	0	0	0	2000	1	0	2	3	5	6	19	1000801c	3	5	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+114	lw $t0, 0($s0)	$s0	$t0	-	-	2000	1000801c	4	1000801c	-	1000801c	-	268468252	0	0	0	1	1	00	0	1	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 138-----
+Registers:
+11c	0	0	0	0	0	0	0	0	2000	1	0	2	3	5	6	19	1000801c	3	5	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+118	slt $t2, $t0, $s1	$t0	$s1	$t2	0	2000	3	0	-	-	-	-	1	0	0	0	0	10	0	0	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 139-----
+Registers:
+120	0	0	0	0	0	0	0	0	2000	1	0	2	3	5	6	19	1000801c	3	5	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+12c	bne $t2, $zero , less	$t2	$zero	-	-	0	0	0	less	-	-	-	-	0	1	0	-	10	0	0	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 141-----
+Registers:
+128	0	0	0	0	0	0	0	0	2000	1	0	2	3	5	6	19	1000801c	3	4	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+12c	beq $s2, $zero, exit	$s2	$zero	-	-	4	0	4	exit	-	-	-	-	0	1	0	-	01	0	0	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 143-----
+Registers:
+114	0	0	0	0	0	0	0	0	2000	1	0	2	3	5	6	19	10008020	3	4	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+12c	j next	-	-	-	10008020	1000801c	4	10008020	-	-	-	-	0	1	0	0	0	--	0	-	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 144-----
+Registers:
+118	0	0	0	0	0	0	0	0	600	1	0	2	3	5	6	19	10008020	3	4	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+114	lw $t0, 0($s0)	$s0	$t0	-	-	600	10008020	4	10008020	-	10008020	-	268468256	0	0	0	1	1	00	0	1	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 145-----
+Registers:
+11c	0	0	0	0	0	0	0	0	600	1	0	2	3	5	6	19	10008020	3	4	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+118	slt $t2, $t0, $s1	$t0	$s1	$t2	0	600	3	0	-	-	-	-	1	0	0	0	0	10	0	0	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 146-----
+Registers:
+120	0	0	0	0	0	0	0	0	600	1	0	2	3	5	6	19	10008020	3	4	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+12c	bne $t2, $zero , less	$t2	$zero	-	-	0	0	0	less	-	-	-	-	0	1	0	-	10	0	0	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 148-----
+Registers:
+128	0	0	0	0	0	0	0	0	600	1	0	2	3	5	6	19	10008020	3	3	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+12c	beq $s2, $zero, exit	$s2	$zero	-	-	3	0	3	exit	-	-	-	-	0	1	0	-	01	0	0	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 150-----
+Registers:
+114	0	0	0	0	0	0	0	0	600	1	0	2	3	5	6	19	10008024	3	3	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+12c	j next	-	-	-	10008024	10008020	4	10008024	-	-	-	-	0	1	0	0	0	--	0	-	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 151-----
+Registers:
+118	0	0	0	0	0	0	0	0	8	1	0	2	3	5	6	19	10008024	3	3	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+114	lw $t0, 0($s0)	$s0	$t0	-	-	8	10008024	4	10008024	-	10008024	-	268468260	0	0	0	1	1	00	0	1	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 152-----
+Registers:
+11c	0	0	0	0	0	0	0	0	8	1	0	2	3	5	6	19	10008024	3	3	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+118	slt $t2, $t0, $s1	$t0	$s1	$t2	0	8	3	0	-	-	-	-	1	0	0	0	0	10	0	0	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 153-----
+Registers:
+120	0	0	0	0	0	0	0	0	8	1	0	2	3	5	6	19	10008024	3	3	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+12c	bne $t2, $zero , less	$t2	$zero	-	-	0	0	0	less	-	-	-	-	0	1	0	-	10	0	0	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 155-----
+Registers:
+128	0	0	0	0	0	0	0	0	8	1	0	2	3	5	6	19	10008024	3	2	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+12c	beq $s2, $zero, exit	$s2	$zero	-	-	2	0	2	exit	-	-	-	-	0	1	0	-	01	0	0	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 157-----
+Registers:
+114	0	0	0	0	0	0	0	0	8	1	0	2	3	5	6	19	10008028	3	2	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+12c	j next	-	-	-	10008028	10008024	4	10008028	-	-	-	-	0	1	0	0	0	--	0	-	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 158-----
+Registers:
+118	0	0	0	0	0	0	0	0	13	1	0	2	3	5	6	19	10008028	3	2	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+114	lw $t0, 0($s0)	$s0	$t0	-	-	13	10008028	4	10008028	-	10008028	-	268468264	0	0	0	1	1	00	0	1	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 159-----
+Registers:
+11c	0	0	0	0	0	0	0	0	13	1	0	2	3	5	6	19	10008028	3	2	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+118	slt $t2, $t0, $s1	$t0	$s1	$t2	0	13	3	0	-	-	-	-	1	0	0	0	0	10	0	0	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 160-----
+Registers:
+120	0	0	0	0	0	0	0	0	13	1	0	2	3	5	6	19	10008028	3	2	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+12c	bne $t2, $zero , less	$t2	$zero	-	-	0	0	0	less	-	-	-	-	0	1	0	-	10	0	0	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 162-----
+Registers:
+128	0	0	0	0	0	0	0	0	13	1	0	2	3	5	6	19	10008028	3	1	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+12c	beq $s2, $zero, exit	$s2	$zero	-	-	1	0	1	exit	-	-	-	-	0	1	0	-	01	0	0	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 164-----
+Registers:
+114	0	0	0	0	0	0	0	0	13	1	0	2	3	5	6	19	1000802c	3	1	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+12c	j next	-	-	-	1000802c	10008028	4	1000802c	-	-	-	-	0	1	0	0	0	--	0	-	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 165-----
+Registers:
+118	0	0	0	0	0	0	0	0	27	1	0	2	3	5	6	19	1000802c	3	1	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+114	lw $t0, 0($s0)	$s0	$t0	-	-	27	1000802c	4	1000802c	-	1000802c	-	268468268	0	0	0	1	1	00	0	1	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 166-----
+Registers:
+11c	0	0	0	0	0	0	0	0	27	1	0	2	3	5	6	19	1000802c	3	1	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+118	slt $t2, $t0, $s1	$t0	$s1	$t2	0	27	3	0	-	-	-	-	1	0	0	0	0	10	0	0	1
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 167-----
+Registers:
+120	0	0	0	0	0	0	0	0	27	1	0	2	3	5	6	19	1000802c	3	1	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+12c	bne $t2, $zero , less	$t2	$zero	-	-	0	0	0	less	-	-	-	-	0	1	0	-	10	0	0	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Cycle 169-----
+Registers:
+13c	0	0	0	0	0	0	0	0	27	1	0	2	3	5	6	19	1000802c	3	0	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Monitors:
+124	beq $s2, $zero, exit	$s2	$zero	-	-	0	0	0	exit	-	-	-	-	0	1	0	-	01	0	0	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+-----Final State-----
+Registers:
+140	0	0	0	0	0	0	0	0	27	1	0	2	3	5	6	19	1000802c	3	0	20	25	21	16	12	c	a	0	0	10008000	7ffffffc	0	0
+
+Memory State:
+100	9	10	1000	200	3	8	2000	600	8	13	27	
+
+Total Cycles:
+170
