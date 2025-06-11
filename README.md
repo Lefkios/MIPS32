@@ -39,8 +39,8 @@ Each architecture simulates instruction execution using C++ and Code::Blocks.
 │   └── input.txt
 │
 └── Images/            # Architecture diagrams (PNG)
-```
 └── input.txt │ └── Images/ # Architecture diagrams (PNG) ``` </pre>
+```
 
 
 Each folder contains:
