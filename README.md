@@ -19,6 +19,7 @@ Each architecture simulates instruction execution using C++ and Code::Blocks.
 <img src="Images/Pipelined.png" alt="Pipelined Architecture" width="600"/>
 
 ## Project Structure
+.
 ├── Single-Cycle/
 ├── Multi-Cycle/
 ├── Pipelined/
