@@ -19,26 +19,7 @@ Each architecture simulates instruction execution using C++ and Code::Blocks.
 
 <img src="Images/Pipelined.png" alt="Pipelined Architecture" width="600"/>
 
-## Project Structure .
-├── Single-Cycle/ # Single-cycle MIPS implementation
-│ ├── src/ # Source files
-│ ├── include/ # Header files
-│ └── input.txt # Instruction input file
-│
-├── Multi-Cycle/ # Multi-cycle MIPS implementation
-│ ├── src/
-│ ├── include/
-│ └── input.txt
-│
-├── Pipelined/ # Pipelined MIPS implementation
-│ ├── src/
-│ ├── include/
-│ └── input.txt
-│
-└── Images/ # Architecture diagrams (PNG)
-
-Αντιγραφή κώδικα
-
+<pre> ## 📁 Project Structure ``` . ├── Single-Cycle/ # Single-cycle MIPS implementation │ ├── src/ # Source files │ ├── include/ # Header files │ └── input.txt # Instruction input file │ ├── Multi-Cycle/ # Multi-cycle MIPS implementation │ ├── src/ │ ├── include/ │ └── input.txt │ ├── Pipelined/ # Pipelined MIPS implementation │ ├── src/ │ ├── include/ │ └── input.txt │ └── Images/ # Architecture diagrams (PNG) ``` </pre>
 
 
 Each folder contains:
