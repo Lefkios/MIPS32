@@ -2,6 +2,9 @@ This repository contains implementations of a **MIPS32 processor** in three arch
 -  **Single-Cycle**
 -  **Multi-Cycle**
 -  **Pipelined**
+Each architecture simulates instruction execution using C++ and Code::Blocks.
+
+## 🧬 Architecture Diagrams
 
 ###  Single-Cycle Architecture
 
@@ -15,6 +18,11 @@ This repository contains implementations of a **MIPS32 processor** in three arch
 
 <img src="Images/Pipelined.png" alt="Pipelined Architecture" width="600"/>
 
+## Project Structure
+├── Single-Cycle/
+├── Multi-Cycle/
+├── Pipelined/
+└── Images/
 
 
 Each folder contains:
