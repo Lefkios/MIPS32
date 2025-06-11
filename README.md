@@ -3,7 +3,15 @@ This repository contains implementations of a **MIPS32 processor** in three arch
 -  **Multi-Cycle**
 -  **Pipelined**
 
-### 🧱 Pipelined Architecture
+###  Single-Cycle Architecture
+
+<img src="Images/Single-Cycle.png" alt=" Single-Cycle Architecture" width="600"/>
+
+###  Multi-Cycle Architecture
+
+<img src="Images/Multi-Cycle.png" alt=" Multi-Cycle Architecture Architecture" width="600"/>
+
+###  Pipelined Architecture
 
 <img src="Images/Pipelined.png" alt="Pipelined Architecture" width="600"/>
 
