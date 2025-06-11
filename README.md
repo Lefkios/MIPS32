@@ -19,11 +19,7 @@ Each architecture simulates instruction execution using C++ and Code::Blocks.
 <img src="Images/Pipelined.png" alt="Pipelined Architecture" width="600"/>
 
 ## Project Structure
-.
-├── Single-Cycle/
-├── Multi-Cycle/
-├── Pipelined/
-└── Images/
+<pre> ## 📁 Project Structure ``` . ├── Single-Cycle/ ├── Multi-Cycle/ ├── Pipelined/ └── Images/ ``` </pre>
 
 
 Each folder contains:
@@ -32,4 +28,7 @@ Each folder contains:
 - `input.txt` → sample input (e.g., MIPS instructions)
 - `main.cpp` → entry point
 - Code::Blocks project files (`*.cbp`, `*.layout`) *(excluded from GitHub)*
+
+> This project was developed as part of the **Computer Architecture Lab** during my Computer Engineering studies.
+
 
