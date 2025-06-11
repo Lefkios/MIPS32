@@ -3,7 +3,7 @@ This repository contains implementations of a **MIPS32 processor** in three arch
 -  **Multi-Cycle**
 -  **Pipelined**
 
-![Pipelined](assets/Pipelined.png)
+![Pipelined](images/Pipelined.png)
 
 
 Each folder contains:
